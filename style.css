@@ -1,3 +1,4 @@
+
 .header {
     background-color: #1F2937;
     display: flex;
@@ -100,7 +101,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 50px;
+    padding: 75px;
 }
 
 .box-three .quote {
@@ -113,9 +114,41 @@
     margin-left: 500px;
 }
 
+/* call to action box */
+.box-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 33px;
+}
+
+.action-box {
+    display: flex;
+    padding: 25px;
+    border-radius: 5px;
+    height: auto;
+    width: 850px;
+    margin: 25px;
+    background-color: #3882F6;
+}
+
+.action-box .body {
+    flex-direction: column;
+}
+.action-box button {
+    height: 28px;
+    width: 85px;
+    margin-left: auto;
+}
 
 /*footer*/
 .footer {
+    display: flex;
     background-color: #1F2937;
+    padding: 7px;
+    justify-content: center;
+}
 
+.footer p {
+    color: white;
 }
